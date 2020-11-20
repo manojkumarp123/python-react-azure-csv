@@ -1,0 +1,2 @@
+docker image build . -t xlsx-blob-service
+docker run --rm -p 8000:8000 --name my-xlsx-blob-service -e CREDENTIAL=<credentials> -e ACCOUNT=<account_url> -e CONTAINER=<container> -e BLOB=<filename> xlsx-blob-service

@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.8.2"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+pandas = "*"
+django-cors-headers = "*"
+whitenoise = "*"
+azure-storage-blob = "*"
+
+[dev-packages]
+pytest = "*"
+ipdb = "*"
